@@ -1,2 +1,2 @@
 # brutal
-brutal estudio website
+brutal studio website
