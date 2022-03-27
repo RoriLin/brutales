@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
 
-body{
-	background: #111;
-	font-family: Rajdhani;
-	font-weight: bolder;
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #111;
+  height: 50vh;
+  width: 50vw;
 }
 
 nav {
