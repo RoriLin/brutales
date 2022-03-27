@@ -1,2 +1,2 @@
-# brutales
+# brutal
 brutal estudio website
