@@ -1,0 +1,63 @@
+
+body{
+	background: #111;
+	font-family: Rajdhani;
+	font-weight: bolder;
+}
+
+nav {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  color: #111;
+  font-size: 124px;
+  letter-spacing: 15px;
+  cursor: pointer;
+}
+
+nav::before {
+  content: "BRUTAL";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent 0,
+    transparent 2px,
+    white 2px,
+    white 4px
+  );
+  -webkit-background-clip: text;
+  top: 0px;
+  left: 0;
+  z-index: -1;
+  transition: 1s;
+}
+
+nav::after {
+  content: "BRUTAL";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    135deg,
+    transparent 0,
+    transparent 2px,
+    white 2px,
+    white 4px
+  );
+  -webkit-background-clip: text;
+  top: 0px;
+  left: 0px;
+  transition: 1s;
+}
+
+nav:hover:before {
+  top: 10px;
+  left: 10px;
+}
+
+nav:hover:after {
+  top: -10px;
+  left: -10px;
+} 
