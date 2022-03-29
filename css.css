@@ -5,8 +5,10 @@ body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
   background: #111;
-  height: 50vh;
-  width: 50vw;
+  background-image: url("assets/img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0vh -21vh;
 }
 
 nav {
@@ -66,3 +68,13 @@ nav:hover:after {
   top: -10px;
   left: -10px;
 } 
+
+
+@media (max-width: 850px) and (orientation: portrait) { 
+
+body{
+	background-size: 100vh;
+  	background-position: -90vw 0vh;
+}
+
+ }
