@@ -22,6 +22,7 @@ nav {
   letter-spacing: 15px;
   cursor: pointer;
   max-width: 100vw;
+  user-select: none;
 }
 
 nav::before {
