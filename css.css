@@ -16,9 +16,10 @@ nav {
   transform: translate(-50%, -50%);
   display: block;
   color: #111;
-  font-size: 124px;
+  font-size: 5vw;
   letter-spacing: 15px;
   cursor: pointer;
+  max-width: 100vw;
 }
 
 nav::before {
