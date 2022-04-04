@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
 
+/*skroll*/
+::-webkit-scrollbar {
+  width: 1vw;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+
+
 body {
   padding: 0;
   margin: 0;
@@ -39,7 +57,7 @@ nav::before {
   left: 0;
   z-index: -1;
   transition: 1s;
-  z-index: 100;
+  z-index: 50;
 }
 
 nav::after {
@@ -57,18 +75,32 @@ nav::after {
   top: 0px;
   left: 0px;
   transition: 1s;
-  z-index: 100;
+  z-index: 50;
 }
 
 nav:hover:before {
-  top: 10px;
-  left: 10px;
+  top: 5px;
+  left: 5px;
 }
 
 nav:hover:after {
-  top: -10px;
-  left: -10px;
+  top: -5px;
+  left: -5px;
 } 
+
+
+#ss{
+  position: fixed;
+  display: block;
+  bottom: 0vh;
+  right: 0vh;
+  z-index: 200;
+}
+
+#ss img{
+  height: 3vh;
+  margin: 3vh;
+}
 
 h1{
   position: absolute;
@@ -92,6 +124,10 @@ img{
   display: block;
   width: 100vw;
 }
+
+
+
+
 
 
 @media (max-width: 850px) and (orientation: portrait) { 
