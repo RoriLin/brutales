@@ -17,13 +17,22 @@
   background: #fff;
 }
 
+*, html, body {
+  margin: 0;
+  padding:0;
+  outline: 0;
+}
+
 
 body {
-  padding: 0;
-  margin: 0;
   font-family: 'Poppins', sans-serif;
   background: #111;
   overflow-x: hidden;
+}
+
+a{
+  margin: 0;
+  padding: 0;
 }
 
 nav {
@@ -32,13 +41,14 @@ nav {
   top: 50%;
   transform: translate(-50%, -50%);
   display: block;
-  color: #000;
+  color: transparent;
   font-size: 5vw;
   letter-spacing: 15px;
   cursor: pointer;
   max-width: 100vw;
   user-select: none;
   z-index: 100;
+  padding: 0;
 }
 
 nav::before {
@@ -58,6 +68,7 @@ nav::before {
   z-index: -1;
   transition: 1s;
   z-index: 50;
+  padding: 0;
 }
 
 nav::after {
@@ -76,6 +87,7 @@ nav::after {
   left: 0px;
   transition: 1s;
   z-index: 50;
+  padding: 0;
 }
 
 nav:hover:before {
@@ -91,20 +103,24 @@ nav:hover:after {
 
 #ss{
   position: fixed;
-  display: block;
   bottom: 0vh;
   right: 0vh;
+  text-align: center;
   z-index: 200;
 }
 
 #ss img{
   height: 3vh;
+  width: auto;
   margin: 3vh;
+  text-align: center;
+  -webkit-mask-image:none;
+      mask-image: none;
 }
 
 h1{
   position: absolute;
-  left: 50%;
+  left: 50vw;
   top: 53vh;
   transform: translate(-50%, -50%);
   display: block;
@@ -112,9 +128,10 @@ h1{
   font-size: 2.5vw;
   letter-spacing: 15px;
   cursor: pointer;
-  width: 100vw;
+  width: 95vw;
+  margin: 0 auto;
   user-select: none;
-  padding: 1vh;
+  padding: 0;
   text-align: center;
   z-index: 100;
 }
@@ -123,18 +140,42 @@ img{
   position: relative;
   display: block;
   width: 100vw;
+  -webkit-mask-image:-webkit-gradient(linear, left center, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+  margin: 0;
+  padding: 0;
 }
 
+div{
+  margin: 0;
+  paddign: 0;
+}
 
-
+div.b1{
+  position: relative;
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../../media/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-mask-image:-webkit-gradient(linear, left center, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+  margin: 0;
+  padding: 0;
+}
 
 
 
 @media (max-width: 850px) and (orientation: portrait) { 
 
 body{
-	background-size: 100vh;
-  	background-position: -90vw 0vh;
+
+}
+
+nav{
+  font-size: 10vw;
 }
 
  }
