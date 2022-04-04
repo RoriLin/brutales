@@ -32,7 +32,7 @@ nav {
   top: 50%;
   transform: translate(-50%, -50%);
   display: block;
-  color: #111;
+  color: #000;
   font-size: 5vw;
   letter-spacing: 15px;
   cursor: pointer;
