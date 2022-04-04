@@ -25,6 +25,8 @@
 
 
 body {
+  height: 100%;
+  width: 100%;
   font-family: 'Poppins', sans-serif;
   background: #111;
   overflow-x: hidden;
@@ -111,9 +113,8 @@ nav:hover:after {
 
 #ss img{
   height: 3vh;
-  width: auto;
+  width: 3vh;
   margin: 3vh;
-  text-align: center;
   -webkit-mask-image:none;
       mask-image: none;
 }
@@ -121,15 +122,16 @@ nav:hover:after {
 h1{
   position: absolute;
   left: 50vw;
-  top: 53vh;
+  top: 55vh;
   transform: translate(-50%, -50%);
   display: block;
   color: #fff;
   font-size: 2.5vw;
   letter-spacing: 15px;
   cursor: pointer;
-  width: 95vw;
+  width: 100vw;
   margin: 0 auto;
+  margin-top: 1vh;
   user-select: none;
   padding: 0;
   text-align: center;
@@ -142,13 +144,6 @@ img{
   width: 100vw;
   -webkit-mask-image:-webkit-gradient(linear, left center, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
   mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
-  margin: 0;
-  padding: 0;
-}
-
-div{
-  margin: 0;
-  paddign: 0;
 }
 
 div.b1{
