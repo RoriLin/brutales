@@ -178,9 +178,3 @@ info a, info span{
 
 }
 
-
-
-
-video::-webkit-media-controls {
-  display: none;
-}
