@@ -61,8 +61,8 @@ nft{
 worx{
   position: fixed;
   display: block;
-  right: 50vw;
-  top: 5%;
+  left: 50vw;
+  top: 5vh;
   color: white;
   z-index: 100;
 }
