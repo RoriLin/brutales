@@ -47,6 +47,16 @@ nav {
   top: 5%;
   color: white;
   z-index: 100;
+  width: auto;
+}
+
+nav img{
+  position: absolute;
+  display: block;
+  height: 5vh;
+  left: 0vh;
+  text-align: left;
+  width: 5vh;
 }
 
 rtb{
