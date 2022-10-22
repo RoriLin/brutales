@@ -86,6 +86,7 @@ worx{
 }
 
 .b img{
+
   height: 3vh;
   width: 3vh;
   margin: 3vh;
@@ -99,6 +100,7 @@ worx{
   left: 5vw;
   text-align: center;
   z-index: 200;
+  color: white;
 }
 
 h1{
