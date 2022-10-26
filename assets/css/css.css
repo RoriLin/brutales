@@ -37,7 +37,7 @@ a, span{
   padding: 0;
   text-decoration: none;
   color: #fff;
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 nav {
@@ -148,9 +148,33 @@ info a, info span{
 
 }
 
+span.who{
+  position: relative;
+  display: block;
+  font-family: 'Rajdhani', sans-serif;
+  padding: 25vh 25vh 5vh;  
+}
+
+brutales{
+  position: relative;
+  display: block;
+  text-align: center;
+  margin: 1vh 15vw 5vh;
+}
+
+brutales img{
+  display: inline-block;
+  position: relative;
+  height: 25vh;
+  width: 25vh;
+  border-radius: 100000px;
+  margin: 5vh;
+  text-align: center;
+}
+
 @media (max-width: 850px) and (orientation: portrait) { 
   body{
-
+    user-select: none;
   }
 
   nav{
