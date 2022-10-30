@@ -148,6 +148,11 @@ info a, info span{
 
 }
 
+con{
+  co
+  border-radius: 1000px;
+}
+
 span.who{
   position: relative;
   display: block;
@@ -170,6 +175,11 @@ brutales img{
   border-radius: 100000px;
   margin: 5vh;
   text-align: center;
+}
+
+txt{
+  margin: 15%;
+  position: relative;display: block;
 }
 
 @media (max-width: 850px) and (orientation: portrait) { 
