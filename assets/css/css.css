@@ -182,6 +182,14 @@ txt{
   position: relative;display: block;
 }
 
+h2{
+  color: white;
+}
+
+.up{
+  top: 5vh;
+}
+
 @media (max-width: 850px) and (orientation: portrait) { 
   body{
     user-select: none;
