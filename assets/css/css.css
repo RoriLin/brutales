@@ -190,11 +190,23 @@ h2{
   top: 5vh;
 }
 
-.bo{
+con{
   height: 50px;
+  font-family: Rajdhani;
+  font-weight: bolder;
+}
+
+.bo{
+  height: auto;
   border-radius: 100px;
   border: 1px solid white;
   padding: 5px 25px;
+  cursor: pointer;
+}
+
+.bo:hover{
+  background-color: white;
+  color: black;
 }
 
 @media (max-width: 850px) and (orientation: portrait) { 
