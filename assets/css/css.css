@@ -194,6 +194,7 @@ con{
   height: 50px;
   font-family: Rajdhani;
   font-weight: bolder;
+  user-select: none;
 }
 
 .bo{
@@ -212,8 +213,7 @@ con{
 .to a:hover{
   background: white;
   color: black;
-  border-radius: 100px;
-  padding: 10px;
+
 }
 
 @media (max-width: 850px) and (orientation: portrait) { 
