@@ -216,6 +216,15 @@ con{
 
 }
 
+
+/*WHO*/
+
+bx{
+  position:relative;
+  display: block;
+}
+
+
 @media (max-width: 850px) and (orientation: portrait) { 
   body{
     user-select: none;
